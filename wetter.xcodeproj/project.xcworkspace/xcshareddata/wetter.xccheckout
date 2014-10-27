@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D8DE4C2A-EE65-4E97-8131-F3266011E8B0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>wetter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C030549DFFC7B9E16B1C6D64FF0253A1D278C25F</key>
+		<string>https://github.com/JonathanPrince/wetter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>wetter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C030549DFFC7B9E16B1C6D64FF0253A1D278C25F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JonathanPrince/wetter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C030549DFFC7B9E16B1C6D64FF0253A1D278C25F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C030549DFFC7B9E16B1C6D64FF0253A1D278C25F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wetter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
