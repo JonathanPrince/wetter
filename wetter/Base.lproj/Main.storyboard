@@ -68,7 +68,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cloudy-night" translatesAutoresizingMaskIntoConstraints="NO" id="j3g-KK-Lty">
                                 <rect key="frame" x="38" y="92" width="60" height="60"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2n2-2Y-LOG">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2n2-2Y-LOG">
                                 <rect key="frame" x="140" y="28" width="43" height="43"/>
                                 <state key="normal" image="refresh">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -77,7 +77,7 @@
                                     <action selector="refresh" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YS6-4d-spa"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="e7T-XI-KF8">
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="e7T-XI-KF8">
                                 <rect key="frame" x="151" y="40" width="20" height="20"/>
                             </activityIndicatorView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="degree" translatesAutoresizingMaskIntoConstraints="NO" id="mcU-uh-gVI">
@@ -107,6 +107,7 @@
                             <constraint firstItem="Sjd-pt-mQ8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="40" id="s6I-4M-QiY"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Sjd-pt-mQ8" secondAttribute="bottom" constant="177" id="t1Q-DQ-z3a"/>
                             <constraint firstItem="2n2-2Y-LOG" firstAttribute="centerY" secondItem="e7T-XI-KF8" secondAttribute="centerY" constant="-0.5" id="tbu-D3-Nfe"/>
+                            <constraint firstItem="e7T-XI-KF8" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="w3o-jX-E0H"/>
                             <constraint firstItem="BiI-VY-4JU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="47" id="wg5-sy-Llu"/>
                             <constraint firstAttribute="centerX" secondItem="QJ2-XH-mIb" secondAttribute="centerX" constant="-0.5" id="zYd-gf-AeQ"/>
                         </constraints>
