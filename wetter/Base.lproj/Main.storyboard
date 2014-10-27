@@ -59,23 +59,41 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cloudy-night" translatesAutoresizingMaskIntoConstraints="NO" id="j3g-KK-Lty">
-                                <rect key="frame" x="38" y="92" width="60" height="60"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJ2-XH-mIb">
                                 <rect key="frame" x="84" y="118" width="153" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cloudy-night" translatesAutoresizingMaskIntoConstraints="NO" id="j3g-KK-Lty">
+                                <rect key="frame" x="38" y="92" width="60" height="60"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2n2-2Y-LOG">
+                                <rect key="frame" x="140" y="28" width="43" height="43"/>
+                                <state key="normal" image="refresh">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="refresh" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YS6-4d-spa"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="e7T-XI-KF8">
+                                <rect key="frame" x="151" y="40" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="degree" translatesAutoresizingMaskIntoConstraints="NO" id="mcU-uh-gVI">
+                                <rect key="frame" x="268" y="206" width="36" height="36"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.29019607843137257" green="0.56470588235294117" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="QJ2-XH-mIb" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="98" id="1rd-6i-9hF"/>
+                            <constraint firstAttribute="centerX" secondItem="2n2-2Y-LOG" secondAttribute="centerX" id="9n6-uy-A7H"/>
                             <constraint firstItem="dCH-yu-fA2" firstAttribute="top" secondItem="Uas-hE-ZTV" secondAttribute="bottom" constant="10" id="GR8-Q6-Bzt"/>
                             <constraint firstItem="BiI-VY-4JU" firstAttribute="top" secondItem="Sjd-pt-mQ8" secondAttribute="bottom" constant="10" id="Jk5-wN-H4n"/>
+                            <constraint firstItem="tZS-Vj-uAR" firstAttribute="top" secondItem="mcU-uh-gVI" secondAttribute="bottom" constant="-44" id="NBT-Qu-5eW"/>
                             <constraint firstAttribute="centerX" secondItem="w2p-SY-4Rk" secondAttribute="centerX" constant="-0.25" id="Q4P-ev-JBu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Uas-hE-ZTV" secondAttribute="trailing" constant="40" id="RMg-2Z-K36"/>
+                            <constraint firstItem="2n2-2Y-LOG" firstAttribute="centerX" secondItem="e7T-XI-KF8" secondAttribute="centerX" constant="0.5" id="S9i-BV-peZ"/>
                             <constraint firstAttribute="centerX" secondItem="tZS-Vj-uAR" secondAttribute="centerX" constant="-0.5" id="VI4-Oh-Xbv"/>
                             <constraint firstAttribute="centerX" secondItem="j3g-KK-Lty" secondAttribute="centerX" constant="92" id="X2b-sl-grf"/>
                             <constraint firstItem="tZS-Vj-uAR" firstAttribute="top" secondItem="McD-Kc-BSM" secondAttribute="bottom" constant="-17" id="YCV-Eh-Uow"/>
@@ -83,10 +101,12 @@
                             <constraint firstAttribute="centerX" secondItem="McD-Kc-BSM" secondAttribute="centerX" constant="-0.25" id="e5z-Kn-4eO"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="w2p-SY-4Rk" secondAttribute="bottom" constant="90" id="hNd-GA-VdQ"/>
                             <constraint firstItem="j3g-KK-Lty" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="72" id="iv1-uq-kAV"/>
+                            <constraint firstItem="mcU-uh-gVI" firstAttribute="leading" secondItem="tZS-Vj-uAR" secondAttribute="trailing" constant="-17.5" id="kO6-3D-waw"/>
                             <constraint firstAttribute="centerY" secondItem="tZS-Vj-uAR" secondAttribute="centerY" id="pzY-J4-YOz"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dCH-yu-fA2" secondAttribute="trailing" constant="36" id="rgn-8q-DSv"/>
                             <constraint firstItem="Sjd-pt-mQ8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="40" id="s6I-4M-QiY"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Sjd-pt-mQ8" secondAttribute="bottom" constant="177" id="t1Q-DQ-z3a"/>
+                            <constraint firstItem="2n2-2Y-LOG" firstAttribute="centerY" secondItem="e7T-XI-KF8" secondAttribute="centerY" constant="-0.5" id="tbu-D3-Nfe"/>
                             <constraint firstItem="BiI-VY-4JU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="47" id="wg5-sy-Llu"/>
                             <constraint firstAttribute="centerX" secondItem="QJ2-XH-mIb" secondAttribute="centerX" constant="-0.5" id="zYd-gf-AeQ"/>
                         </constraints>
@@ -96,6 +116,8 @@
                         <outlet property="humidityLabel" destination="BiI-VY-4JU" id="pGa-0A-SGz"/>
                         <outlet property="iconView" destination="j3g-KK-Lty" id="UJW-VN-gGU"/>
                         <outlet property="precipitationLabel" destination="dCH-yu-fA2" id="t6K-MU-cuz"/>
+                        <outlet property="refreshActivityIndicator" destination="e7T-XI-KF8" id="ICt-Zc-5UJ"/>
+                        <outlet property="refreshButton" destination="2n2-2Y-LOG" id="Xym-ZF-4Md"/>
                         <outlet property="summaryLabel" destination="w2p-SY-4Rk" id="xWK-qG-uzo"/>
                         <outlet property="temperatureLabel" destination="tZS-Vj-uAR" id="ynR-mT-6F4"/>
                     </connections>
@@ -107,6 +129,8 @@
     </scenes>
     <resources>
         <image name="cloudy-night" width="46" height="43"/>
+        <image name="degree" width="36" height="36"/>
+        <image name="refresh" width="43" height="43"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
