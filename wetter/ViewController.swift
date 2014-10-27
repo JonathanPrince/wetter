@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var iconView: UIImageView!
+    @IBOutlet weak var currentTimeLabel: UILabel!
+    @IBOutlet weak var temperatureLabel: UILabel!
+    @IBOutlet weak var humidityLabel: UILabel!
+    @IBOutlet weak var precipitationLabel: UILabel!
+    @IBOutlet weak var summaryLabel: UILabel!
+    
+    
     private let apiKey = "a9157e83c47d8f9256ff7084185421b6"
 
     override func viewDidLoad() {
@@ -26,7 +34,7 @@ class ViewController: UIViewController {
                 let dataObject = NSData(contentsOfURL: location)
                 let weatherDictionary: NSDictionary = NSJSONSerialization.JSONObjectWithData(dataObject!, options: nil, error: nil) as NSDictionary
                 let currentWeather = Current(weatherDictionary: weatherDictionary)
-                println(currentWeather.currentTime!)
+                
             }
         })
         downloadTask.resume()
